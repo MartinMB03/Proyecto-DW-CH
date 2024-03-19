@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: DancingScript;
+    src: url(../assest/font/Lobster-Regular.ttf);
+}
+
+@font-face {
+    font-family: Lobster;
+    src: url(../assest/font/Lobster-Regular.ttf);
+}
+
+.principal {
+    
+    font-family: DancingScript;
+    text-align: center;
+    
+}
+.principal p{
+    background-color: #387ADF;
+    font-size: 30px;
+}
+
+.principal nav ul li{
+    display: inline;
+    color: black;
+    margin: 0 20px;
+    font-size: 25px;
+    
+}
+
+.home1{
+    background-color: #387ADF;
+}
+
+#inicioprin{
+    font-family: DancingScript;
+    padding: 30px;
+    margin: auto;
+
+}
+
+.home p{
+    font-family: DancingScript;
+    font-size: 30px;
+    margin-left: 25px;
+    padding: 30px;
+}
+
+
+.home img{
+    padding: 60px;
+    border: whitesmoke solid 1px;
+    margin-left: 25px;
+    
+
+}
+
+.footer{
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Productos */
+
+.titulos{
+    font-family: DancingScript;
+    font-size: 35px;
+    text-align: center;
+    padding: 20px;
+}
+
+.producto{
+    font-family: DancingScript;
+    background-color: #387ADF;
+    padding: 70px;
+    margin: 0 auto;
+    font-size: 25px;
+    text-align: center;
+    display: flex;
+    width: 1200px;
+
+}
+
+.propersonal{
+    width: 600px;
+    border: whitesmoke solid 1px;
+    
+}
+
+.propersonal p{
+padding: 25px;
+}
+
+.proambiental{
+    width: 600px;
+    border: whitesmoke solid 1px;
+
+   
+}
+
+.proambiental p{
+    padding: 25px;
+}
+
+/* Productos personales*/
+
+.prinpersonales{
+    
+    margin: auto;
+    padding: 20px;
+}
+
+.prinpersonales h4{
+    padding: 10px;
+    font-size: 25px;
+    background-color: #387ADF;
+    font-family: DancingScript;
+}
+
+.prinpersonales p{
+    padding: 10px;
+    font-size: 25px;
+    font-family: DancingScript;
+    text-align: left;
+}
+
+.tablaper {
+    display: flex;
+    
+    
+}
+
+.tablaper table, th, td{
+    border: black solid 1px;
+
+}
+.pro-personal {
+    text-align: center;
+    padding: 50px;
+}
+
+.pro-personal article{
+    border: black solid 1px;
+}
+
+/* Productos personales*/
+
+.pro-ambiental{
+    text-align: center;
+    padding: 50px;
+}
+
+.pro-ambiental article{
+    border: black solid 1px;
+    
+}
+
+.pro-ambiental h4{
+    padding: 10px;
+    font-size: 25px;
+    background-color: #387ADF;
+    font-family: DancingScript;
+}
+
+/* Preguntas Frecuentes*/
+
+
+
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	max-width: 80%;
+	margin: auto;
+}
+
+.pregunta {
+	margin: 10px;
+	max-width: 500px;
+	border: #387ADF solid;
+	border-radius: 10px;
+	padding: 16px;
+}
+
+.pregunta_encabezado h3 {
+	font-size: 30px;
+    font-family: DancingScript;
+	margin: 0;
+	
+}
+
+.respuesta {
+    font-family: Lobster;
+}
+
+
+/*Contactos*/
+
+.container-conta{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px;
+    margin-top: 90px;
+    font-family: DancingScript;
+}
+.container-conta p{
+    padding: 20px;
+    margin: auto;
+}
+
+.container-conta a{
+    font-size: 17px;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    margin-bottom: 15px;
+    color: black;
+    font-weight: 700;
+}
+
+.container-conta form .campo, textarea{
+    font-family: DancingScript;
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 15mp;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    outline: 0px;
+}
+
+.container-conta form textarea{
+    max-width: 530px;
+    min-width: 530px;
+    min-height: 140px;
+    max-height: 150px;
+}
+
+.container-conta .enviar{
+    font-family: DancingScript;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    outline: 0px;
+    background: #387ADF;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+/* Conocenos*/
+
+.historia{
+    width: 1300px;
+    font-family: DancingScript;
+    background-color: #387ADF;
+    border: black solid;
+    margin: 40px auto;
+    padding: 40px;
+}
+
+.historia h4{
+    background-color: rgb(137, 170, 199);
+    font-size: 30px;
+    border: gray solid;
+    text-align:center ;
+    margin-bottom: 30px;
+
+}
+
+.historia-text{
+    font-size: 27px;
+    display: inline-block;
+    width: 600px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.historia img{
+    width: 420px;
+    margin-left: 120px ;
+}
